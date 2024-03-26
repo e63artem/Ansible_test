@@ -1,0 +1,12 @@
+- name: Install docker
+  ansible.builtin.apt:
+    name: docker.io
+    state: latest
+
+- name: Install docker-compose
+  ansible.builtin.apt:
+    name: docker-compose
+    state: latest
+
+
+

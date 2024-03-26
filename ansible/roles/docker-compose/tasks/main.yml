@@ -1,0 +1,4 @@
+- name: Start docker-compose file
+  shell: sudo docker-compose up -d
+  shell: sudo docker-compose up -d
+  
